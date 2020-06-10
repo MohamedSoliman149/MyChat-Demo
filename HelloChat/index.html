@@ -1,0 +1,59 @@
+﻿      <!DOCTYPE html>
+<html>
+<head >
+    <title>CHat Me </title>
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+  
+
+</head>
+
+<body>
+  
+
+    <form id="myForm">
+        <div class="container">
+            <h1 id="Header"> Hello In The Chat  </h1>
+            <div class="well" style="height:100px">
+                <div class="col-lg-6">
+
+                    <input type="text" class="alert-info form-control" id="txtmessage"  style="height:40px"/>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <input type="button" class="btn btn-primary" id="sendMessage" value="Send"  />
+
+                </div>
+            </div>
+                <div>
+                    <div class="well">
+                        <input type="hidden" id="UserName" />
+                        <div class="panel panel-body" style="margin-top:70px;margin-left:20px;margin-top:10px">
+                            <h3 class="well"><b> Messages </b></h3><br />
+                            <ul id="discussion"></ul>
+                        </div>
+                    </div>
+                </div>
+          </div>
+    </form>
+
+
+
+    <script src="Scripts/jquery-1.6.4-vsdoc.js"></script>
+    <script src="/Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.1.js"></script>
+    <script src="/Scripts/jquery.signalR-2.2.1.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="/Scripts/DemoJs.js"></script>
+
+   </body>
+  </html>
+
+
+
+
+
+
